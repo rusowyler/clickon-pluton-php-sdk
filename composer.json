@@ -1,0 +1,21 @@
+{
+  "name": "ebowe/clickon-pluton-php-sdk",
+  "description": "Email Marketing SDK",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Diego Perez",
+      "email": "dperez@ebowe.com"
+    }
+  ],
+  "require": {
+    "querypath/querypath": "3.0.4",
+    "firebase/php-jwt": "2.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "ClickonPluton\\": "src"
+    }
+  }
+}
